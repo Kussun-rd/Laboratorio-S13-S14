@@ -27,18 +27,6 @@ Este proyecto es una aplicación **CRUD (Crear, Leer, Actualizar, Eliminar)** de
 
 ---
 
-## 📁 Estructura del proyecto
-
-lib/
-├── models/ # Modelo Trabajador (Hive)
-├── providers/ # Provider para lógica CRUD
-├── widgets/ # Formulario, tabla y componentes UI
-├── pages/ # Página principal
-├── utils/ # Exportador de CSV
-└── main.dart # Configuración principal
-
----
-
 ## 📦 Cómo ejecutar el proyecto
 1. Clona el repositorio:
    ```bash
@@ -53,3 +41,15 @@ lib/
 4. Ejecuta la aplicación en el navegador:
    ```bash
    flutter run -d chrome
+
+
+## 📁 Estructura del proyecto
+
+```text
+lib/
+├── models/       # Modelo Trabajador (Hive)
+├── providers/    # Provider para lógica CRUD
+├── widgets/      # Formulario, tabla y componentes UI
+├── pages/        # Página principal
+├── utils/        # Exportador de CSV
+└── main.dart     # Configuración principal
